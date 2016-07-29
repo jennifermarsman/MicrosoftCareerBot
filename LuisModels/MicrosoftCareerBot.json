@@ -11,16 +11,25 @@
       "name": "EducationWorkExperience"
     },
     {
+      "name": "Compensation"
+    },
+    {
       "name": "MicrosoftResearchJobs"
     },
     {
       "name": "InterviewPrep"
     },
     {
+      "name": "Relocation"
+    },
+    {
       "name": "Roles"
     },
     {
       "name": "RecruiterContact"
+    },
+    {
+      "name": "Visas"
     },
     {
       "name": "DataScienceSkills"
@@ -51,193 +60,8 @@
   "regex_features": [],
   "utterances": [
     {
-      "text": "what jobs are available?",
-      "intent": "Roles",
-      "entities": []
-    },
-    {
-      "text": "i want a job.",
-      "intent": "RecruiterContact",
-      "entities": []
-    },
-    {
-      "text": "do i need a college degree to work at microsoft?",
-      "intent": "EducationWorkExperience",
-      "entities": []
-    },
-    {
-      "text": "what are tips for prepping for an interview?",
-      "intent": "InterviewPrep",
-      "entities": []
-    },
-    {
-      "text": "who can i send my resume to?",
-      "intent": "RecruiterContact",
-      "entities": []
-    },
-    {
-      "text": "what work experience do i need?",
-      "intent": "EducationWorkExperience",
-      "entities": []
-    },
-    {
-      "text": "what positions are open at microsoft?",
-      "intent": "Roles",
-      "entities": []
-    },
-    {
-      "text": "what roles are there?",
-      "intent": "Roles",
-      "entities": []
-    },
-    {
-      "text": "how can i prepare for my interview?",
-      "intent": "InterviewPrep",
-      "entities": []
-    },
-    {
-      "text": "i want to email a recruiter.",
-      "intent": "RecruiterContact",
-      "entities": []
-    },
-    {
-      "text": "what is microsoft's maternity leave policy?",
-      "intent": "Benefits",
-      "entities": []
-    },
-    {
-      "text": "how do i find a recruiter?",
-      "intent": "RecruiterContact",
-      "entities": []
-    },
-    {
-      "text": "what if i didn't go to college?",
-      "intent": "EducationWorkExperience",
-      "entities": []
-    },
-    {
-      "text": "what benefits does microsoft offer?",
-      "intent": "Benefits",
-      "entities": []
-    },
-    {
-      "text": "who do i contact about opportunities at microsoft?",
-      "intent": "RecruiterContact",
-      "entities": []
-    },
-    {
-      "text": "what work experience do i need to qualify for a job at microsoft?",
-      "intent": "EducationWorkExperience",
-      "entities": []
-    },
-    {
-      "text": "what level of education do i need to work at microsoft?",
-      "intent": "EducationWorkExperience",
-      "entities": []
-    },
-    {
-      "text": "how do i contact a microsoft recruiter?",
-      "intent": "RecruiterContact",
-      "entities": []
-    },
-    {
-      "text": "how should i study for a microsoft interview?",
-      "intent": "InterviewPrep",
-      "entities": []
-    },
-    {
-      "text": "what kinds of jobs can i do at microsoft?",
-      "intent": "Roles",
-      "entities": []
-    },
-    {
-      "text": "where can i work?",
-      "intent": "Locations",
-      "entities": []
-    },
-    {
-      "text": "where are there open positions?",
-      "intent": "Locations",
-      "entities": []
-    },
-    {
-      "text": "tell me what locations are available.",
-      "intent": "Locations",
-      "entities": []
-    },
-    {
-      "text": "what locations have open roles?",
-      "intent": "Locations",
-      "entities": []
-    },
-    {
-      "text": "where can i learn about internships with microsoft research?",
-      "intent": "MicrosoftResearchJobs",
-      "entities": []
-    },
-    {
-      "text": "what jobs are available in microsoft research?",
-      "intent": "MicrosoftResearchJobs",
-      "entities": []
-    },
-    {
-      "text": "what research positions are available?",
-      "intent": "MicrosoftResearchJobs",
-      "entities": []
-    },
-    {
-      "text": "tell me more about working in microsoft research.",
-      "intent": "MicrosoftResearchJobs",
-      "entities": []
-    },
-    {
-      "text": "does microsoft support diversity in hiring?",
-      "intent": "Diversity",
-      "entities": []
-    },
-    {
-      "text": "how committed is microsoft to diversity and inclusion?",
-      "intent": "Diversity",
-      "entities": []
-    },
-    {
-      "text": "does microsoft hire enough women?",
-      "intent": "Diversity",
-      "entities": []
-    },
-    {
-      "text": "will i be the only transgender employee?",
-      "intent": "Diversity",
-      "entities": []
-    },
-    {
-      "text": "do you actively hire people of color?",
-      "intent": "Diversity",
-      "entities": []
-    },
-    {
-      "text": "is there a strong black community at microsoft?",
-      "intent": "Diversity",
-      "entities": []
-    },
-    {
-      "text": "where does microsoft have offices?",
-      "intent": "Locations",
-      "entities": []
-    },
-    {
-      "text": "where is microsoft located?",
-      "intent": "Locations",
-      "entities": []
-    },
-    {
-      "text": "where are all of microsoft's offices?",
-      "intent": "Locations",
-      "entities": []
-    },
-    {
-      "text": "where would i live if i worked for microsoft?",
-      "intent": "Locations",
+      "text": "tell me more about communities inside of microsoft.",
+      "intent": "InternalCommunities",
       "entities": []
     },
     {
@@ -246,38 +70,13 @@
       "entities": []
     },
     {
-      "text": "who does microsoft research hire?",
-      "intent": "MicrosoftResearchJobs",
+      "text": "what if i didn't go to college?",
+      "intent": "EducationWorkExperience",
       "entities": []
     },
     {
-      "text": "can i live in california?",
+      "text": "where are there open positions?",
       "intent": "Locations",
-      "entities": []
-    },
-    {
-      "text": "i want to work from michigan",
-      "intent": "Locations",
-      "entities": []
-    },
-    {
-      "text": "are there jobs in africa?",
-      "intent": "Locations",
-      "entities": []
-    },
-    {
-      "text": "is there racism at microsoft?",
-      "intent": "Diversity",
-      "entities": []
-    },
-    {
-      "text": "will i be hired if i'm over 50?",
-      "intent": "Diversity",
-      "entities": []
-    },
-    {
-      "text": "i'm black.",
-      "intent": "Diversity",
       "entities": []
     },
     {
@@ -286,33 +85,13 @@
       "entities": []
     },
     {
-      "text": "do you support diversity?",
+      "text": "is there a data science community at microsoft?",
+      "intent": "InternalCommunities",
+      "entities": []
+    },
+    {
+      "text": "how committed is microsoft to diversity and inclusion?",
       "intent": "Diversity",
-      "entities": []
-    },
-    {
-      "text": "does microsoft support diversity?",
-      "intent": "Diversity",
-      "entities": []
-    },
-    {
-      "text": "do you create an inclusive culture?",
-      "intent": "Diversity",
-      "entities": []
-    },
-    {
-      "text": "i want to work in europe.",
-      "intent": "Locations",
-      "entities": []
-    },
-    {
-      "text": "what are some ways that i can increase my data science knowledge?",
-      "intent": "DataScienceSkills",
-      "entities": []
-    },
-    {
-      "text": "how can i learn more about data science?",
-      "intent": "DataScienceSkills",
       "entities": []
     },
     {
@@ -321,12 +100,117 @@
       "entities": []
     },
     {
+      "text": "how do i contact a microsoft recruiter?",
+      "intent": "RecruiterContact",
+      "entities": []
+    },
+    {
+      "text": "i'm black.",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "where can i work?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
       "text": "teach me data science!",
       "intent": "DataScienceSkills",
       "entities": []
     },
     {
-      "text": "i need to learn machine learning or data science.",
+      "text": "where would i live if i worked for microsoft?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "do i need a college degree to work at microsoft?",
+      "intent": "EducationWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "does microsoft support diversity in hiring?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "what is the internal microsoft machine learning community like?",
+      "intent": "InternalCommunities",
+      "entities": []
+    },
+    {
+      "text": "where are all of microsoft's offices?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "how can i learn more about data science?",
+      "intent": "DataScienceSkills",
+      "entities": []
+    },
+    {
+      "text": "tell me more about working in microsoft research.",
+      "intent": "MicrosoftResearchJobs",
+      "entities": []
+    },
+    {
+      "text": "what work experience do i need to qualify for a job at microsoft?",
+      "intent": "EducationWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "what jobs are available?",
+      "intent": "Roles",
+      "entities": []
+    },
+    {
+      "text": "what communities exist inside of microsoft?",
+      "intent": "InternalCommunities",
+      "entities": []
+    },
+    {
+      "text": "what are tips for prepping for an interview?",
+      "intent": "InterviewPrep",
+      "entities": []
+    },
+    {
+      "text": "will i be hired if i'm over 50?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "what are some ways that i can increase my data science knowledge?",
+      "intent": "DataScienceSkills",
+      "entities": []
+    },
+    {
+      "text": "what research positions are available?",
+      "intent": "MicrosoftResearchJobs",
+      "entities": []
+    },
+    {
+      "text": "where does microsoft have offices?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "what roles are there?",
+      "intent": "Roles",
+      "entities": []
+    },
+    {
+      "text": "is there racism at microsoft?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "who can i send my resume to?",
+      "intent": "RecruiterContact",
+      "entities": []
+    },
+    {
+      "text": "how can i learn more about machine learning competitions?",
       "intent": "DataScienceSkills",
       "entities": []
     },
@@ -336,33 +220,158 @@
       "entities": []
     },
     {
+      "text": "how should i study for a microsoft interview?",
+      "intent": "InterviewPrep",
+      "entities": []
+    },
+    {
+      "text": "are there jobs in africa?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "i want to work in europe.",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "what positions are open at microsoft?",
+      "intent": "Roles",
+      "entities": []
+    },
+    {
+      "text": "do you create an inclusive culture?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "i need to learn machine learning or data science.",
+      "intent": "DataScienceSkills",
+      "entities": []
+    },
+    {
+      "text": "i want to work from michigan",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "where can i learn about internships with microsoft research?",
+      "intent": "MicrosoftResearchJobs",
+      "entities": []
+    },
+    {
+      "text": "i want a job.",
+      "intent": "RecruiterContact",
+      "entities": []
+    },
+    {
+      "text": "do you actively hire people of color?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "who do i contact about opportunities at microsoft?",
+      "intent": "RecruiterContact",
+      "entities": []
+    },
+    {
+      "text": "what benefits does microsoft offer?",
+      "intent": "Benefits",
+      "entities": []
+    },
+    {
+      "text": "does microsoft support diversity?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "can i live in california?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "do you support diversity?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "will i be the only transgender employee?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "i want to email a recruiter.",
+      "intent": "RecruiterContact",
+      "entities": []
+    },
+    {
+      "text": "what locations have open roles?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "what work experience do i need?",
+      "intent": "EducationWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "who does microsoft research hire?",
+      "intent": "MicrosoftResearchJobs",
+      "entities": []
+    },
+    {
+      "text": "where is microsoft located?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "does microsoft hire enough women?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "what level of education do i need to work at microsoft?",
+      "intent": "EducationWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "how do i find a recruiter?",
+      "intent": "RecruiterContact",
+      "entities": []
+    },
+    {
+      "text": "tell me what locations are available.",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "what is microsoft's maternity leave policy?",
+      "intent": "Benefits",
+      "entities": []
+    },
+    {
+      "text": "is there a strong black community at microsoft?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "what kinds of jobs can i do at microsoft?",
+      "intent": "Roles",
+      "entities": []
+    },
+    {
+      "text": "what jobs are available in microsoft research?",
+      "intent": "MicrosoftResearchJobs",
+      "entities": []
+    },
+    {
       "text": "i need to level up my data science skills",
       "intent": "DataScienceSkills",
       "entities": []
     },
     {
-      "text": "how can i learn more about machine learning competitions?",
-      "intent": "DataScienceSkills",
-      "entities": []
-    },
-    {
-      "text": "what is the internal microsoft machine learning community like?",
-      "intent": "InternalCommunities",
-      "entities": []
-    },
-    {
-      "text": "what communities exist inside of microsoft?",
-      "intent": "InternalCommunities",
-      "entities": []
-    },
-    {
-      "text": "is there a data science community at microsoft?",
-      "intent": "InternalCommunities",
-      "entities": []
-    },
-    {
-      "text": "tell me more about communities inside of microsoft.",
-      "intent": "InternalCommunities",
+      "text": "how can i prepare for my interview?",
+      "intent": "InterviewPrep",
       "entities": []
     },
     {
@@ -453,6 +462,396 @@
     {
       "text": "what should i study for my interview?",
       "intent": "InterviewPrep",
+      "entities": []
+    },
+    {
+      "text": "how do i prepare for my interview?",
+      "intent": "InterviewPrep",
+      "entities": []
+    },
+    {
+      "text": "give me interview tips",
+      "intent": "InterviewPrep",
+      "entities": []
+    },
+    {
+      "text": "are you real?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "where can i learn more about machine learning updates from microsoft?",
+      "intent": "MicrosoftNews",
+      "entities": []
+    },
+    {
+      "text": "do i need a computer science degree to work at microsoft",
+      "intent": "EducationWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "what locations does microsoft have machine learning work",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "how do i study for my interview at microsoft?",
+      "intent": "InterviewPrep",
+      "entities": []
+    },
+    {
+      "text": "what locations does microsoft do machine learning work?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "what locations does microsoft do machine learning?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "what kind of machine learning jobs are at microsoft?",
+      "intent": "Roles",
+      "entities": []
+    },
+    {
+      "text": "hello! what kind of machine learning jobs are at microsoft?",
+      "intent": "Roles",
+      "entities": []
+    },
+    {
+      "text": "how do i prepare for an interview?",
+      "intent": "InterviewPrep",
+      "entities": []
+    },
+    {
+      "text": "are there positions open in australia?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "do you have azure architect positions in the u.s.?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "tell me about benefits.",
+      "intent": "Benefits",
+      "entities": []
+    },
+    {
+      "text": "tell me about microsoft benefits",
+      "intent": "Benefits",
+      "entities": []
+    },
+    {
+      "text": "tell me how to prepare for my interview.",
+      "intent": "InterviewPrep",
+      "entities": []
+    },
+    {
+      "text": "tell me about diversity",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "what benefits are available?",
+      "intent": "Benefits",
+      "entities": []
+    },
+    {
+      "text": "can i work for microsoft from michigan?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "can i work at microsoft from michigan?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "do you have maternity leave?",
+      "intent": "Benefits",
+      "entities": []
+    },
+    {
+      "text": "tell me about job locations.",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "how many cloud architect positions do you have in nyc?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "do you offer maternity leave?",
+      "intent": "Benefits",
+      "entities": []
+    },
+    {
+      "text": "tell me about diversity in hiring.",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "suck my dick",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "eat shit",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hwo do i prepare for interviews at microsoft?",
+      "intent": "InterviewPrep",
+      "entities": []
+    },
+    {
+      "text": "alexa, fight cortana to the death",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "job locations",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "ok, no hella noms, what about croissants?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "croissants???",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how can i prepare for my interviews at microsoft?",
+      "intent": "InterviewPrep",
+      "entities": []
+    },
+    {
+      "text": "help i have an interview",
+      "intent": "InterviewPrep",
+      "entities": []
+    },
+    {
+      "text": "what kind of titles do machine learning roles have?",
+      "intent": "Roles",
+      "entities": []
+    },
+    {
+      "text": "do you know cortana?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "does microsoft sponsor work visas for non-u.s. residents?",
+      "intent": "Visas",
+      "entities": []
+    },
+    {
+      "text": "how do i apply for a work visa?",
+      "intent": "Visas",
+      "entities": []
+    },
+    {
+      "text": "i hear microsoft has invested in marijuana supply chain management, can you tell me more about that?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "can i get a visa to work at microsoft?",
+      "intent": "Visas",
+      "entities": []
+    },
+    {
+      "text": "tell me about visas.",
+      "intent": "Visas",
+      "entities": []
+    },
+    {
+      "text": "tell me about work visa.",
+      "intent": "Visas",
+      "entities": []
+    },
+    {
+      "text": "what is the compensation like at microsoft?",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "how much money will i make at microsoft?",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "what is the starting salary?",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "tell me the starting salary range.",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "how much money will i make?",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "will i be rich?",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "will i be rich if i work at microsoft?",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "does microsoft offer relocation?",
+      "intent": "Relocation",
+      "entities": []
+    },
+    {
+      "text": "will you pay for me to move to seattle?",
+      "intent": "Relocation",
+      "entities": []
+    },
+    {
+      "text": "will you pay for me to move?",
+      "intent": "Relocation",
+      "entities": []
+    },
+    {
+      "text": "who is paying for my move to redmond?",
+      "intent": "Relocation",
+      "entities": []
+    },
+    {
+      "text": "tell me about the relocation benefit.",
+      "intent": "Relocation",
+      "entities": []
+    },
+    {
+      "text": "does microsoft think diversity in the workplace is important?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "do i need an h1b?",
+      "intent": "Visas",
+      "entities": []
+    },
+    {
+      "text": "tell me about the h1b process.",
+      "intent": "Visas",
+      "entities": []
+    },
+    {
+      "text": "help me get a work visa",
+      "intent": "Visas",
+      "entities": []
+    },
+    {
+      "text": "help me get an h1b",
+      "intent": "Visas",
+      "entities": []
+    },
+    {
+      "text": "how much do software engineers get paid?",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "i don't care",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "parental leave?",
+      "intent": "Benefits",
+      "entities": []
+    },
+    {
+      "text": "do you offer good benefits?",
+      "intent": "Benefits",
+      "entities": []
+    },
+    {
+      "text": "what pay do i get",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "what are the benefits?",
+      "intent": "Benefits",
+      "entities": []
+    },
+    {
+      "text": "how many men vs women do you have?",
+      "intent": "Diversity",
+      "entities": []
+    },
+    {
+      "text": "testing - what are the locations you offer ml related jobs?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "do you have positions in the sf bay area?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "where do you have openings?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "what jobs are available in california?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "jobs in india?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "where should i work?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "what job locations do you have?",
+      "intent": "Locations",
+      "entities": []
+    },
+    {
+      "text": "how much money?",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "show me the money",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "how much money would i make",
+      "intent": "Compensation",
+      "entities": []
+    },
+    {
+      "text": "will you pay for my move?",
+      "intent": "Relocation",
       "entities": []
     }
   ]

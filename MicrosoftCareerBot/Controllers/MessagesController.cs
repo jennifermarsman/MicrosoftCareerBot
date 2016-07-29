@@ -89,6 +89,15 @@ namespace MicrosoftCareerBot
                                 else
                                     answer = "Microsoft has offices all over the world.  You can search for jobs by location at https://careers.microsoft.com/search.aspx.";
                                 break;
+                            case "Visas":
+                                answer = "All non-U.S. residents require a U.S. work visa (H1B). If you receive an offer from Microsoft, we will cover all costs for visa processing and approval. There are many jobs for which the company might be able to sponsor visas, depending on the requirements of the job and the qualifications of the candidate. We currently have many employees who are foreign nationals. Please feel free to apply to any jobs you think you are qualified for, and if the role is appropriate for foreign nationals and you are qualified for the job, you will hear from the recruiter to proceed with the interview process and visa evaluation.";
+                                break;
+                            case "Compensation":
+                                answer = "We pay well.  :)  Microsoft is widely recognized as a leading company for offering one of the strongest and most comprehensive compensation and benefits packages in the country. We start with competitive pay, bonuses, and stock awards to eligible employees based on performance. Then, we add on unique offerings that might surprise you.";
+                                break;
+                            case "Relocation":
+                                answer = "We offer everyone two options: A full relocation package that handles every detail — from movers packing up your house or dorm, moving your car, your pet, and paying for 100 percent of your travel expenses. It makes the move seamless. We also give people the opportunity to take a lump sum stipend for relocation. For some new graduates, that makes more sense. They can move themselves and use the money to help them get settled. We cover the same applicable expenses for our interns.";
+                                break;
                             case "None":
                                 // use default answer, which is set above
                                 break;
